@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 900px;
+}
+
+.contenair{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+#left{
+    position: absolute;
+    top: 350px; 
+    left: 300px; 
+    font-size: 3em;
+    color: whitesmoke;
+    background-color: black;
+    cursor: pointer;
+}
+#right{
+    position: absolute;
+    top: 350px; 
+    right: 300px; 
+    font-size: 3em;
+    color: whitesmoke;
+    background-color: black;
+    cursor: pointer;
+}
+
+.circle{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 4px solid purple;
+}
